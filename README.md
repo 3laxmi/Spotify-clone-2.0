@@ -1,12 +1,38 @@
-# React + Vite
+#  Spotify 2.0 Clone Music App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautiful and interactive clone of Spotify built with **React.js** and **mock data**. This project replicates key features of Spotify's UI/UX including albums, songs, music player controls, genre-based filtering, and a search bar.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
 
-## Expanding the ESLint configuration
+- Music Player with Play/Pause, Next/Previous
+- Player context using React Context API
+-  Search functionality for albums and songs
+-  Genre filtering (with dropdown and button filters)
+-  Album and Song listing using mock data
+-  Responsive layout with CSS (or Tailwind CSS)
+-  Local assets for images and audio (JPG, MP3)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Tech Stack
+
+- **React.js**
+- **Vite**
+- **CSS / Tailwind CSS**
+- **JavaScript (ES6+)**
+- **React Router**
+
+
+1. Clone the Repository
+git remote add origin https://github.com/3laxmi/Spotify-clone-2.0.git
+cd spotify-2.0-clone
+
+2. Install Dependencies
+ npm install
+
+3. Run the App
+  npm run dev
+
+
